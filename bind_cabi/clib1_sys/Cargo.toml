@@ -1,0 +1,9 @@
+[package]
+name = "clib1_sys"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]

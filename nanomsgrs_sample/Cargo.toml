@@ -1,0 +1,23 @@
+[package]
+name = "nanomsgrs_sample"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+description = "Uses source code from https://github.com/thehydroimpulse/nanomsg.rs"
+
+[lib]
+name = "nanomsg_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nanomsg_test"
+path = "src/bin/main.rs"
+
+[workspace]
+
+[dependencies.nanomsg_sys]
+path = "./nanomsg_sys"
+
+[dependencies]
+#nanomsg_sys = {path = "./nanomsg_sys"}
+libc = "*"
+

@@ -1,0 +1,18 @@
+[package]
+name = "nanomsg_sys"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+links = "nanomsg"
+build = "build.rs"
+
+[lib]
+name = "nanomsg_sys"
+#path = "src/bindings.rs"
+path = "src/fagnan.rs"
+crate-type = ["rlib"]
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+bindgen = "0.20.0"

@@ -1,0 +1,13 @@
+[package]
+name = "nngrs_sample"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+
+[workspace]
+
+[dependencies.nng_sys]
+path = "./nng_sys"
+
+[dependencies]
+#nng_sys = {path = "./nng_sys"}
+libc = "*"

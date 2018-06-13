@@ -1,0 +1,12 @@
+[package]
+name = "bind_cabi"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+
+[workspace]
+
+[dependencies.clib1_sys]
+path = "./clib1_sys"
+
+[dependencies]
+#libc = "*"
