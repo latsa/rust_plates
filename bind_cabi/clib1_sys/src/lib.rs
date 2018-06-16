@@ -1,4 +1,4 @@
-//#[link(name = "clib1")]
+
 extern "C" {
     fn square(val: i32) -> i32;
 }

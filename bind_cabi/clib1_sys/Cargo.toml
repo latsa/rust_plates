@@ -6,4 +6,5 @@ authors = ["latsa <laca@gmx.us>"]
 [lib]
 crate-type = ["rlib"]
 
-[dependencies]
+[build-dependencies]
+cmake = "*"

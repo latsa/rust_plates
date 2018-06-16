@@ -1,4 +1,7 @@
+extern crate cmake;
+
 fn main() {
-    println!("cargo:rustc-link-search=clib1_sys/clib1");
-    println!("cargo:rustc-link-lib=clib1");
+   let dst = cmake::build("clib1");
+   println!("cargo:rustc-link-search={}", dst.display());
+   println!("cargo:rustc-link-lib=clib1");
 }

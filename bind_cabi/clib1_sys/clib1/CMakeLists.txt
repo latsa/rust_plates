@@ -1,0 +1,6 @@
+project( clib1 )
+#include_directories(.)
+#file(GLOB CLIB1_SOURCES "./*.c")
+set ( CLIB1_SOURCES Square.c )
+add_library(clib1 STATIC ${CLIB1_SOURCES})
+install(TARGETS clib1 DESTINATION ".")

@@ -7,6 +7,3 @@ authors = ["latsa <laca@gmx.us>"]
 
 [dependencies.clib1_sys]
 path = "./clib1_sys"
-
-[dependencies]
-#libc = "*"
