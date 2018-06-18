@@ -1,0 +1,12 @@
+[package]
+name = "nng_raw"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+
+[workspace]
+
+[dependencies.nng_sys]
+path = "./nng_sys"
+
+[dependencies]
+libc = "*"

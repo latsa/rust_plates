@@ -1,0 +1,5 @@
+#! /bin/bash
+export mode="pull"
+./target/debug/nanomsg_compat_cooked
+#./target/debug/nanomsg_compat_cooked pull
+

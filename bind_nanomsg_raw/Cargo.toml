@@ -1,0 +1,13 @@
+[package]
+name = "nanomsg_raw"
+version = "0.1.0"
+authors = ["latsa <laca@gmx.us>"]
+
+[workspace]
+
+[dependencies.nanomsg_sys]
+path = "./nanomsg_sys"
+
+[dependencies]
+libc = "*"
+
